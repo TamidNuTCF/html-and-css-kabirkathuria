@@ -1,0 +1,48 @@
+.business-card {
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 500px;
+}
+
+.name {
+    color: purple;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.details {
+    flex: 1;
+}
+
+.intro {
+    font-size: 20px;
+    color: black;
+}
+
+.linkedin, .email, .location {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.linkedin a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: inherit;
+}
